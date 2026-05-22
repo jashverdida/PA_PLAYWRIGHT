@@ -1,0 +1,6 @@
+{
+  "baseURL": "https://prospect-analyzer-prod.n-compass.online",
+  "apiBaseURL": "https://prospect-analyzer-api-prod.n-compass.online",
+  "environment": "prod",
+  "timeout": 60000
+}

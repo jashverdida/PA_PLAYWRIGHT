@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["ESNext"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./e2e-tests",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@data/*": ["data/*"],
+      "@api/*": ["api/*"]
+    }
+  },
+  "include": [
+    "tests/**/*.ts",
+    "pages/**/*.ts",
+    "fixtures/**/*.ts",
+    "utils/**/*.ts",
+    "config/**/*.ts",
+    "types/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}

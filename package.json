@@ -1,0 +1,36 @@
+{
+  "name": "prospect-analyzer-e2e-tests",
+  "version": "1.0.0",
+  "description": "End-to-End test automation framework for Prospect Analyzer using Playwright",
+  "author": "QA Team",
+  "license": "ISC",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:dev": "ENV=dev playwright test",
+    "test:qa": "ENV=qa playwright test",
+    "test:prod": "ENV=prod playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:search": "playwright test tests/e2e/search",
+    "test:auth": "playwright test tests/e2e/auth",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "trace": "playwright show-trace"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "baseURL": "https://prospect-analyzer-qa.n-compass.online",
+  "apiBaseURL": "https://prospect-analyzer-api-qa.n-compass.online",
+  "environment": "qa",
+  "timeout": 60000
+}
